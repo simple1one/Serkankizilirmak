@@ -1,6 +1,6 @@
 ### Hi there, I'm Serkan 👋
 
-As a seasoned data science professional with a background in Economics from TOBB Economy and Technology University, I have a passion for leveraging data-driven insights to drive impactful outcomes. With a track record of successfully executing multiple projects and maintaining an active blog, I continuously showcase my expertise in the field. My commitment to personal growth and development is demonstrated through numerous certifications and bootcamps I have completed. I am currently focusing on advancing my skills in data engineering, where I strive to deliver innovative and efficient solutions.
+As a recent graduate in Economics from TOBB University of Economics and Technology, I have a solid foundation in the subject. In addition to that, I work as a freelance data scientist, continuously updating my skills and sharing new knowledge and projects through my blog. With multiple certifications and bootcamps in the field of data science, I am currently focused on advancing my expertise in data engineering.
 
 Feel free to contact me serkankizilirmaak@gmail.com
 
