@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi there, I'm Serkan 👋
+
+As a seasoned data science professional with a background in Economics from TOBB Economy and Technology University, I have a passion for leveraging data-driven insights to drive impactful outcomes. With a track record of successfully executing multiple projects and maintaining an active blog, I continuously showcase my expertise in the field. My commitment to personal growth and development is demonstrated through numerous certifications and bootcamps I have completed. I am currently focusing on advancing my skills in data engineering, where I strive to deliver innovative and efficient solutions.
 
 <!--
 **Serkankizilirmak/Serkankizilirmak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
