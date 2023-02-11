@@ -4,7 +4,6 @@ As a seasoned data science professional with a background in Economics from TOBB
 
 Feel free to contact me serkankizilirmaak@gmail.com
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 <!--
 **Serkankizilirmak/Serkankizilirmak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
