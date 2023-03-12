@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Serkan Kızılırmak</h1>
 <h3 align="center">Junior Data Scientist</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=serkankizilirmak&label=Profile%20views&color=0e75b6&style=flat" alt="serkankizilirmak" /> </p>
-
 - 📝 I regularly write articles on [https://medium.com/@serkankizilirmak](https://medium.com/@serkankizilirmak)
 
 - 📫 How to reach me **serkankizilirmaak@gmail.com**
