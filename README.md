@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Serkan Kızılırmak</h1>
+<h1 align=">i 👋, I'm Serkan Kızılırmak</h1>
 <h3 align="center">As a recent graduate in Economics from TOBB University of Economics and Technology, I have a solid foundation in the subject. In addition to that, I work as a freelance data scientist, continuously updating my skills and sharing new knowledge and projects through my blog. With multiple certifications and bootcamps in the field of data science, I am currently focused on advancing my expertise in data engineering.</h3>
 
 - 📝 I regularly write articles on [https://medium.com/@serkankizilirmak](https://medium.com/@serkankizilirmak)
