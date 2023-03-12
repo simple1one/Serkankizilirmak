@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **serkankizilirmaak@gmail.com**
 
-- 🔗 [🔗 You can find my CV and all related links on my profile.](🔗 You can find my CV and all related links on my profile.)
+- 🔗 You can find my CV and all related links on my profile.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
