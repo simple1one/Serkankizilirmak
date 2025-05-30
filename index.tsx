@@ -1,7 +1,7 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; // This assumes App.tsx is in the same directory.
+import App from './App';
+import { HashRouter } from 'react-router-dom';
 
 console.log('index.tsx: Script started.');
 console.log('index.tsx: Attempting to import App component...');
@@ -24,7 +24,9 @@ try {
   console.log('index.tsx: React root created. Attempting to render App...');
   root.render(
     <React.StrictMode>
-      <App />
+      <HashRouter>
+        <App />
+      </HashRouter>
     </React.StrictMode>
   );
   console.log('index.tsx: React app render call completed.');
