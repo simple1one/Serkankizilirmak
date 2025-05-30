@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #141414; /* Netflix dark background */
+            color: #e5e5e5; /* Light text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Dikeyde ortalamak için center */
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative; /* Footer'ı konumlandırmak için */
+        }
+        .profile-card {
+            background-color: #1f1f1f;
+            border: 2px solid transparent;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            overflow: hidden; /* Yakınlaşan içeriğin kart dışına taşmasını engeller */
+        }
+        .profile-card:hover {
+            transform: scale(1.05); /* Kartın kendisi de biraz büyüsün */
+            border-color: #e50914; /* Netflix red for hover border */
+            box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
+        }
+        .profile-image-container { 
+            width: 100%;
+            height: 100%; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease; 
+        }
+        .profile-card:hover .profile-image-container {
+            transform: scale(1.35); 
+        }
+        .placeholder-icon { 
+            width: 60%; 
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777; 
+        }
+        .profile-name {
+            color: #e5e5e5;
+            transition: color 0.3s ease;
+            position: relative; 
+            z-index: 1; 
+        }
+        .profile-card:hover .profile-name {
+            color: #ffffff;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: #a0a0a0;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        @media (max-width: 768px) {
+            .subtitle {
+                font-size: 1rem;
+                margin-top: 15px;
+                margin-bottom: 30px;
+            }
+            .profile-grid {
+                gap: 20px;
+            }
+            .profile-card {
+                width: 120px;
+                height: 120px;
+            }
+            .placeholder-icon {
+                width: 50%;
+                height: 50%;
+            }
+            .profile-name {
+                font-size: 0.875rem;
+            }
+            body {
+                padding-bottom: 80px;
+            }
+        }
+         @media (max-width: 480px) {
+            .subtitle {
+                font-size: 0.9rem;
+            }
+            .profile-grid {
+                gap: 15px;
+            }
+             .profile-card {
+                width: 100px;
+                height: 100px;
+            }
+             .placeholder-icon {
+                width: 45%;
+                height: 45%;
+            }
+            .profile-name {
+                font-size: 0.75rem;
+            }
+             body {
+                padding-bottom: 70px;
+            }
+         }
+    </style>
+</head>
+<body>
+    <p class="subtitle text-center">Explore the world of Serkan Kızılırmak</p>
+
+    <div class="profile-grid grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 max-w-xs sm:max-w-lg md:max-w-2xl mx-auto">
+        <a href="resume/index.html" class="profile-link">
+            <div class="profile-card rounded-lg text-center p-2 md:p-4 shadow-lg w-32 h-32 md:w-40 md:h-40 mx-auto flex flex-col items-center justify-center">
+                <div class="profile-image-container mb-2">
+                    <div class="placeholder-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                            <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z"/>
+                        </svg>
+                    </div>
+                </div>
+                <p class="profile-name font-medium text-sm md:text-base">Resume</p>
+            </div>
+        </a>
+
+        <a href="work_in_progress.html" class="profile-link">
+            <div class="profile-card rounded-lg text-center p-2 md:p-4 shadow-lg w-32 h-32 md:w-40 md:h-40 mx-auto flex flex-col items-center justify-center">
+                <div class="profile-image-container mb-2">
+                    <div class="placeholder-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"/>
+                            <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                        </svg>
+                    </div>
+                </div>
+                <p class="profile-name font-medium text-sm md:text-base">Portfolio</p>
+            </div>
+        </a>
+
+        <a href="work_in_progress.html" class="profile-link">
+            <div class="profile-card rounded-lg text-center p-2 md:p-4 shadow-lg w-32 h-32 md:w-40 md:h-40 mx-auto flex flex-col items-center justify-center">
+                <div class="profile-image-container mb-2">
+                     <div class="placeholder-icon">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388 1.17.953.713 1.043 1.778.822 2.827-.163.767-.457 1.442-.787 2.053C14.27 9.291 13.486 9.972 12.5 10.555v.002c-.36.223-.746.43-1.152.615C10.934 11.393 10.27 11.5 9.508 11.5c-.746 0-1.37-.103-1.92-.296-.57-.202-1.08-.458-1.546-.752-.102-.064-.214-.136-.334-.217-.093-.065-.193-.134-.299-.208C4.966 9.99 4.682 9.683 4.364 9.35c-.27-.28-.505-.54-.704-.78C3.206 8.252 3.003 7.882 3.003 7.45c0-.38.12-.703.322-.952.203-.248.48-.44.796-.593C4.437 5.78 5.063 5.5 6.035 5.5c.65 0 1.156.066 1.584.176.003.001.007.003.01.004.093.03.196.07.308.12.106.048.205.093.296.13.078.032.147.06.21.084.02.007.036.012.052.017.098.03.187.052.266.067.06.012.113.02.16.023.028.002.05.002.066.002.03-.002.054-.002.07-.002.028-.002.048-.002.06-.002.036 0 .062.002.078.002.027.002.044.002.05.002.02.002.034.002.042.002.03.002.05.002.056.002.022.002.036.002.042.002.025.002.04.002.046.002.017.002.027.002.03.002.02.002.03.002.036.002.01.002.016.002.02.002.012.002.02.002.024.002C8.45 2.695 8.474 2.69 8.5 2.687M8 3.5v8a8 8 0 0 0 7-3.5c-2.135-2.242-4.724-2.614-7-2.614Z"/>
+                            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.876V2.828Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <p class="profile-name font-medium text-sm md:text-base">Readings</p>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <p class="text-xs text-gray-500">&copy; <span id="currentYear"></span> Serkan Kızılırmak. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
