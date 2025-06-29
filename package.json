@@ -6,8 +6,7 @@
   "homepage": "https://serkankizilirmak.github.io/Serkankizilirmak/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cd resume && move resume.html index.html",
-    "build:unix": "vite build && cd resume && mv resume.html index.html",
+    "build": "vite build && node -e \"const fs = require('fs'); if (fs.existsSync('resume/resume.html')) { fs.renameSync('resume/resume.html', 'resume/index.html'); }\"",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
