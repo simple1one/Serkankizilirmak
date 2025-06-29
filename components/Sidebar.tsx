@@ -25,6 +25,15 @@ const Sidebar: React.FC<SidebarProps> = ({ contactInfo, sections }) => {
 
       <nav className="mb-10">
         <ul className="space-y-1.5">
+          <li>
+            <a
+              href="../"
+              className="block px-3 py-2.5 rounded-md text-sm font-medium text-gray-600 hover:bg-gray-100 hover:text-blue-600 transition-colors duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-gray-100 focus:text-blue-600"
+              aria-label="Go to Home page"
+            >
+              ← Home
+            </a>
+          </li>
           {sections.map((section) => (
             <li key={section.id}>
               <a

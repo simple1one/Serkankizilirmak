@@ -6,64 +6,6 @@
 ## 🌐 Live Website
 Visit my portfolio at: **[https://serkankizilirmak.github.io/Serkankizilirmak/](https://serkankizilirmak.github.io/Serkankizilirmak/)**
 
-## 📋 About This Portfolio
-
-This repository contains my personal portfolio website featuring:
-
-- **Landing Page**: Netflix-style interface with profile cards
-- **Interactive Resume**: React-based resume application with detailed sections
-- **Responsive Design**: Optimized for all devices
-- **Modern UI**: Built with Tailwind CSS and Inter font
-
-## 🚀 Features
-
-- **Dynamic Resume**: Interactive React application with sections for:
-  - Professional Experience
-  - Projects & Achievements
-  - Skills & Technologies
-  - Education & Certifications
-  - Contact Information
-
-- **GitHub Pages Deployment**: Automated deployment with GitHub Actions
-- **SEO Optimized**: Proper meta tags and structured content
-- **Performance Optimized**: Fast loading with optimized assets
-
-## 🛠️ Technology Stack
-
-- **Frontend**: React 19, TypeScript, Tailwind CSS
-- **Build Tool**: Vite
-- **Deployment**: GitHub Pages
-- **CI/CD**: GitHub Actions
-
-## 📂 Project Structure
-
-```
-├── index.html          # Landing page
-├── resume/             # Built React resume app
-├── components/         # React components
-├── data/              # Resume data
-├── .github/workflows/  # CI/CD configuration
-└── src files          # Source code
-```
-
-## 🚀 Local Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## 📱 Contact Me
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/serkankizilirmak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="serkankizilirmak" height="30" width="40" /></a>
