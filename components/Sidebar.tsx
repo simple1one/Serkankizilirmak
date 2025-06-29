@@ -5,7 +5,6 @@ import PhoneIcon from './icons/PhoneIcon';
 import EmailIcon from './icons/EmailIcon';
 import LinkedInIcon from './icons/LinkedInIcon';
 import MediumIcon from './icons/MediumIcon';
-import GlobeIcon from './icons/GlobeIcon';
 import LocationIcon from './icons/LocationIcon'; // Added
 import CalendarIcon from './icons/CalendarIcon'; // Added
 import MilitaryIcon from './icons/MilitaryIcon'; // Added
@@ -79,11 +78,6 @@ const Sidebar: React.FC<SidebarProps> = ({ contactInfo, sections }) => {
           <a href={contactInfo.medium} target="_blank" rel="noopener noreferrer" aria-label="Medium Profile" className="text-gray-500 hover:text-blue-600 transition-colors duration-150">
             <MediumIcon className="w-5 h-5" />
           </a>
-          {contactInfo.portfolio && (
-             <a href={contactInfo.portfolio} target="_blank" rel="noopener noreferrer" aria-label="Portfolio Website" className="text-gray-500 hover:text-blue-600 transition-colors duration-150">
-               <GlobeIcon className="w-5 h-5" />
-             </a>
-          )}
         </div>
       </div>
     </aside>

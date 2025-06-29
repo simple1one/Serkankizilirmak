@@ -9,7 +9,7 @@ export interface ContactInfo {
   linkedin: string;
   github?: string; // Optional since we're removing it
   medium: string;
-  portfolio: string; 
+  portfolio?: string; // Optional since we're removing it
   militaryStatus: string; // New field
 }
 

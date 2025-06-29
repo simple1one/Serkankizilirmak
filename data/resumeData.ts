@@ -11,7 +11,6 @@ export const resumeData: ResumeData = {
     email: "serkankizilirmaak@gmail.com",
     linkedin: "https://www.linkedin.com/in/serkankizilirmak/",
     medium: "https://medium.com/@serkankizilirmak",
-    portfolio: "https://serkankizilirmak.github.io",
     militaryStatus: "Completed"
   },
   summary: "Data Scientist with 2+ years of experience specializing in Monitoring & Evaluation within the humanitarian sector. Proven ability to research, design, and implement innovative M&E frameworks integrating ML, statistical models, and causal inference to assess program impact and improve targeting accuracy. Expertise in engineering real-time data pipelines, developing interactive dashboards, and deploying ML models. Passionate about delivering impactful solutions through data storytelling, model deployment, and end-to-end ML workflows.",
