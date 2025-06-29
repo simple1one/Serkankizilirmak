@@ -3,7 +3,6 @@
 <h1 align="center">Hi 👋, I'm Serkan Kızılırmak</h1>
 <h3 align="center">Data Scientist from Turkey</h3>
 
-## 🌐
 Visit my portfolio at: **[https://serkankizilirmak.github.io/Serkankizilirmak/](https://serkankizilirmak.github.io/Serkankizilirmak/)**
 
 <h3 align="left">Connect with me:</h3>
