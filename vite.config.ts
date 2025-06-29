@@ -11,7 +11,12 @@ export default defineConfig(({ mode }) => {
         outDir: 'resume',
         emptyOutDir: true,
         rollupOptions: {
-          input: 'resume.html'
+          input: 'resume.html',
+          output: {
+            entryFileNames: 'assets/resume-[hash].js',
+            chunkFileNames: 'assets/[name]-[hash].js',
+            assetFileNames: 'assets/[name]-[hash].[ext]'
+          }
         },
         assetsDir: 'assets'
       },
