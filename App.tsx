@@ -11,6 +11,8 @@ import SkillBadge from './components/SkillBadge';
 import LevelledSkillBar from './components/LevelledSkillBar'; // Import new component
 import { Language, SkillCategory, SkillEntry } from './types';
 
+console.log('App component loading...');
+
 const sections = [
   { id: "summary", title: "Summary" },
   { id: "experience", title: "Professional Experience" },
@@ -24,6 +26,12 @@ const sections = [
 ];
 
 const App: React.FC = () => {
+  console.log('App component rendering...');
+  
+  if (!resumeData) {
+    return <div style={{padding: '20px'}}>Error: Resume data not loaded!</div>;
+  }
+
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-gray-100">
       <Sidebar contactInfo={resumeData.contactInfo} sections={sections} />
