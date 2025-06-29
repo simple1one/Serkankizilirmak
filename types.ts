@@ -7,9 +7,10 @@ export interface ContactInfo {
   phone: string;
   email: string;
   linkedin: string;
-  github: string;
+  github?: string; // Optional since we're removing it
   medium: string;
   portfolio: string; 
+  militaryStatus: string; // New field
 }
 
 export interface ExperienceEntry {

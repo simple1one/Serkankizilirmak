@@ -4,11 +4,11 @@ import { ContactInfo } from '../types';
 import PhoneIcon from './icons/PhoneIcon';
 import EmailIcon from './icons/EmailIcon';
 import LinkedInIcon from './icons/LinkedInIcon';
-import GitHubIcon from './icons/GitHubIcon';
 import MediumIcon from './icons/MediumIcon';
 import GlobeIcon from './icons/GlobeIcon';
 import LocationIcon from './icons/LocationIcon'; // Added
 import CalendarIcon from './icons/CalendarIcon'; // Added
+import MilitaryIcon from './icons/MilitaryIcon'; // Added
 
 interface SidebarProps {
   contactInfo: ContactInfo;
@@ -66,14 +66,15 @@ const Sidebar: React.FC<SidebarProps> = ({ contactInfo, sections }) => {
             <PhoneIcon className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
             <span>{contactInfo.phone}</span>
           </a>
+          <div className="flex items-center text-gray-700">
+            <MilitaryIcon className="w-4 h-4 mr-3 text-blue-600 flex-shrink-0" />
+            <span>{contactInfo.militaryStatus}</span>
+          </div>
         </div>
         
         <div className="flex space-x-4 pt-2">
           <a href={contactInfo.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="text-gray-500 hover:text-blue-600 transition-colors duration-150">
             <LinkedInIcon className="w-5 h-5" />
-          </a>
-          <a href={contactInfo.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="text-gray-500 hover:text-blue-600 transition-colors duration-150">
-            <GitHubIcon className="w-5 h-5" />
           </a>
           <a href={contactInfo.medium} target="_blank" rel="noopener noreferrer" aria-label="Medium Profile" className="text-gray-500 hover:text-blue-600 transition-colors duration-150">
             <MediumIcon className="w-5 h-5" />
