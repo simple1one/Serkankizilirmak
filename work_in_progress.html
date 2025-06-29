@@ -77,12 +77,37 @@
     </div>
     <h1>Work In Progress</h1>
     <p>This section is currently under construction. Please check back later for exciting updates!</p>
-    <a href="index.html" class="back-link">Back to Profiles</a>
-    <a href="resume/index.html" class="profile-link">
+    <a href="#" id="backLink" class="back-link">Back to Profiles</a>
+    <a href="#" id="resumeLink" class="profile-link">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
             <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V6.707L9.293 0zM8 1.5 12.5 6H8V1.5zM4 14V2h4v5h5v7H4z"/>
         </svg>
         <p class="profile-name font-medium text-sm md:text-base">Resume</p>
     </a>
+    
+    <script>
+        // Smart navigation for GitHub Pages
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentHost = window.location.hostname;
+            const currentPath = window.location.pathname;
+            
+            // Determine if we're on GitHub Pages or local
+            const isGitHubPages = currentHost.includes('github.io');
+            const isLocal = currentHost === 'localhost' || currentHost === '127.0.0.1';
+            
+            let basePath = '';
+            if (isGitHubPages) {
+                basePath = '/Serkankizilirmak';
+            } else if (isLocal) {
+                basePath = '';
+            }
+            
+            // Set the correct links
+            document.getElementById('backLink').href = basePath + '/';
+            document.getElementById('resumeLink').href = basePath + '/resume/';
+            
+            console.log('Navigation links updated for:', isGitHubPages ? 'GitHub Pages' : 'Local');
+        });
+    </script>
 </body>
 </html>
