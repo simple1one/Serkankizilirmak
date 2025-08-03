@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Serkan Kızılırmak</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="resources.html" class="nav-link active">Resources</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Resources Section -->
+    <section class="resources page-section">
+        <div class="container">
+            <!-- Resources Accordion -->
+            <div class="resources-accordion">
+                
+                <!-- Learning Roadmap Section -->
+                <div class="resource-accordion-item" data-section="roadmap">
+                    <div class="resource-accordion-header">
+                        <h2>
+                            <i class="fas fa-route"></i>
+                            <span>Learning Roadmap</span>
+                        </h2>
+                        <i class="fas fa-chevron-down resource-accordion-icon"></i>
+                    </div>
+                    <div class="resource-accordion-content">
+                        <div class="section-description">
+                            <p>My learning journey and progress tracking with useful resources</p>
+                        </div>
+                        <div class="roadmap-container" id="learning-roadmap">
+                            <!-- Roadmap items will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interesting Articles Section -->
+                <div class="resource-accordion-item" data-section="articles">
+                    <div class="resource-accordion-header">
+                        <h2>
+                            <i class="fas fa-newspaper"></i>
+                            <span>Interesting Articles</span>
+                        </h2>
+                        <i class="fas fa-chevron-down resource-accordion-icon"></i>
+                    </div>
+                    <div class="resource-accordion-content">
+                        <div class="section-description">
+                            <p>Articles that caught my attention and shaped my thinking</p>
+                        </div>
+                        <div class="articles-grid" id="articles-grid">
+                            <!-- Articles will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="data/resources-data.js"></script>
+    <script src="scripts/resources-script.js"></script>
+</body>
+</html>
