@@ -7,7 +7,7 @@ Welcome to my personal portfolio website! This is a fully dynamic, data-driven p
 ## 📬 Connect With Me
 
 - **💼 LinkedIn**: [linkedin.com/in/serkankizilirmak](https://www.linkedin.com/in/serkankizilirmak/)
-- **📧 Email**: serkankizilirmaac@gmail.com
+- **📧 Email**: serkankizilirmaak@gmail.com
 - **🐙 GitHub**: [github.com/Serkankizilirmak](https://github.com/Serkankizilirmak)
 - **📝 Medium**: [@serkankizilirmak](https://medium.com/@serkankizilirmak)
 
