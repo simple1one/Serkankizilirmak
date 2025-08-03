@@ -88,13 +88,13 @@ function initTypingAnimation() {
         'Monitoring & Evaluation Specialist',
     ];
     
-    // Color array for different titles
+    // Color array for different titles - Business colors
     const colors = [
-        '#f59e0b', // Amber/Gold
-        '#10b981', // Emerald
-        '#ef4444', // Red
-        '#f97316', // Orange
-        '#06b6d4'  // Cyan
+        '#5e503f', // Koyu kahve
+        '#c6ac8f', // Warm taupe
+        '#22333b', // Charcoal
+        '#0a0908', // Siyah
+        '#8a7a6b'  // Muted brown
     ];
     
     let currentTitleIndex = 0;

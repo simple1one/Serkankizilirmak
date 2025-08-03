@@ -8,6 +8,7 @@ function initializeResources() {
     renderLearningRoadmap();
     renderArticles();
     setupInteractivity();
+    initMobileMenu(); // Mobile menu'yu initialize et
 }
 
 function initResourcesAccordion() {
@@ -252,4 +253,25 @@ function setupScrollAnimations() {
         element.style.animationDelay = `${index * 0.1}s`;
         observer.observe(element);
     });
+}
+
+// Mobile Menu Toggle Function
+function initMobileMenu() {
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (mobileToggle && navLinks) {
+        mobileToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            mobileToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.classList.remove('active');
+                mobileToggle.classList.remove('active');
+            });
+        });
+    }
 }
