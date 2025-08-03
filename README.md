@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a fully dynamic, data-driven p
 
 **🔗 Visit my portfolio:** [Serkankizilirmak](https://serkankizilirmak.github.io/Serkankizilirmak/)
 
-*Please note: This page is currently being updated. For the most current and accurate information, please visit my [resume](https://flowcv.com/resume/arh63sgus9.)) *
+*Please note: This page is currently being updated. For the most current and accurate information, please visit my [resume](https://flowcv.com/resume/arh63sgus9)) *
 
 ## 📬 Connect With Me
 
