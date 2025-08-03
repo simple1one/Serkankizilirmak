@@ -2,9 +2,14 @@
 
 Welcome to my personal portfolio website! This is a fully dynamic, data-driven portfolio showcasing my journey as a Data Scientist.
 
-## 🌟 Live Demo
-
 **🔗 Visit my portfolio:** ([Serkankizilirmak/](https://serkankizilirmak.github.io/portfolio/))
+
+## 📬 Connect With Me
+
+- **💼 LinkedIn**: [linkedin.com/in/serkankizilirmak](https://www.linkedin.com/in/serkankizilirmak/)
+- **📧 Email**: serkankizilirmaac@gmail.com
+- **🐙 GitHub**: [github.com/Serkankizilirmak](https://github.com/Serkankizilirmak)
+- **📝 Medium**: [@serkankizilirmak](https://medium.com/@serkankizilirmak)
 
 ## 📖 About This Portfolio
 
@@ -57,7 +62,6 @@ website/
 - **Easy updates**: Change data files, see instant results
 - **Consistent design**: Automated styling across all pages
 
-
 ## 🚀 How to Use This Template
 
 ### For Your Own Portfolio:
@@ -90,30 +94,6 @@ const resourcesData = {
 };
 ```
 
-## 🎯 Perfect For:
-
-- **💼 Anyone** seeking a professional, dynamic portfolio
-
-## 🎓 Resources Section
-
-The Resources page is designed to:
-
-### 📚 Share Knowledge
-I regularly add articles, research papers, and learning materials that have influenced my understanding of:
-- **🤖 Mechanistic Interpretability**
-- **🔒 AI Safety & Explainable AI**
-
-### 🎯 Track Learning Progress
-The interactive roadmap shows my current learning goals and completed milestones, serving as:
-- **📈 Personal motivation tool**
-- **👥 Transparency for potential collaborators**
-- **🎓 Inspiration for others in similar fields**
-
-### 🌍 Build Community
-By sharing resources openly, I hope to:
-- **📖 Help others discover valuable materials**
-- **🤝 Connect with like-minded professionals**
-
 ## 🤝 Contributing
 
 Found this helpful? Here's how you can contribute:
@@ -122,13 +102,6 @@ Found this helpful? Here's how you can contribute:
 2. **🍴 Fork it** for your own portfolio
 3. **🐛 Report issues** or suggest improvements
 4. **📚 Share resources** - suggest articles or papers
-
-## 📬 Connect With Me
-
-- **💼 LinkedIn**: [linkedin.com/in/serkankizilirmak](https://www.linkedin.com/in/serkankizilirmak/)
-- **📧 Email**: serkankizilirmaac@gmail.com
-- **🐙 GitHub**: [github.com/Serkankizilirmak](https://github.com/Serkankizilirmak)
-- **📝 Medium**: [@serkankizilirmak](https://medium.com/@serkankizilirmak)
 
 ---
 
