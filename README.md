@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a fully dynamic, data-driven p
 
 ## 🌟 Live Demo
 
-**🔗 Visit my portfolio:** (([https://serkankizilirmak.github.io/Serkankizilirmak/](https://serkankizilirmak.github.io/portfolio/)))
+**🔗 Visit my portfolio:** ([Serkankizilirmak/](https://serkankizilirmak.github.io/portfolio/))
 
 ## 📖 About This Portfolio
 
