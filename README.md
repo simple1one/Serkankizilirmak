@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This is a fully dynamic, data-driven portfolio showcasing my journey as a Data Scientist.
 
-**🔗 Visit my portfolio:** ([Serkankizilirmak/](https://serkankizilirmak.github.io/portfolio/))
+**🔗 Visit my portfolio:** ([Serkankizilirmak](https://serkankizilirmak.github.io/Serkankizilirmak/))
 
 ## 📬 Connect With Me
 
