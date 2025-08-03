@@ -3,6 +3,7 @@
 Welcome to my personal portfolio website! This is a fully dynamic, data-driven portfolio showcasing my journey as a Data Scientist.
 
 **🔗 Visit my portfolio:** [Serkankizilirmak](https://serkankizilirmak.github.io/Serkankizilirmak/)
+*Please note: This page is currently being updated. For the most current and accurate information, please visit my [resume](https://flowcv.com/resume/arh63sgus9.)) *
 
 ## 📬 Connect With Me
 
