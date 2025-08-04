@@ -1,7 +1,7 @@
 // Resume data - shared across all pages
 const resumeData = {
     contactInfo: {
-        email: "serkankizilirmaak@gmail.com"
+        email: "aykutkutlu811@gmail.com"
     },
     contact: {
         title: "Let's Start a Conversation",
@@ -11,23 +11,23 @@ const resumeData = {
                 icon: "fas fa-envelope",
                 title: "Email Me",
                 description: "Reach me for business inquiries",
-                link: "mailto:serkankizilirmaac@gmail.com",
-                linkText: "serkankizilirmaak@gmail.com"
+                link: "mailto:aykutkutlu811@gmail.com",
+                linkText: "aykutkutlu811@gmail.com"
             },
             {
                 icon: "fab fa-linkedin",
                 title: "LinkedIn",
                 description: "Connect with me professionally",
-                link: "https://www.linkedin.com/in/serkankizilirmak/",
-                linkText: "linkedin.com/in/serkankizilirmak",
+                link: "https://www.linkedin.com/in/aykut-kutlu-562867236/",
+                linkText: "https://www.linkedin.com/in/aykut-kutlu",
                 target: "_blank"
             },
             {
                 icon: "fab fa-github",
                 title: "GitHub",
                 description: "My code repositories and open source contributions",
-                link: "https://github.com/Serkankizilirmak",
-                linkText: "github.com/Serkankizilirmak",
+                link: "https://github.com/simple1one",
+                linkText: "github.com/AykutKutlu",
                 target: "_blank"
             }
         ],
@@ -55,8 +55,9 @@ const resumeData = {
     },
     about: {
         introduction: [
-            "Data Scientist with 3+ years of experience specializing in Monitoring & Evaluation within the humanitarian sector. Proven ability to research, design, and implement innovative M&E frameworks integrating ML, statistical models, and causal inference to assess program impact and improve targeting accuracy.",
-            "With a dedicated focus on AI Safety and Explainable AI (XAI), committed to building transparent and ethical solutions. A persistent and creative problem-solver, passionate about delivering impactful, end-to-end ML workflows—from data storytelling and model deployment to ensuring robust and interpretable outcomes."
+            "I am a data scientist with hands-on experience in financial analysis, market research, and predictive modeling across equity and cryptocurrency markets. I have worked on end-to-end development of forecasting models using machine learning techniques such as XGBoost and LSTM, as well as time series models like ARIMA and Holt-Winters. My expertise includes feature engineering, model optimization (Optuna), and building interactive dashboards that deliver real-time insights.",
+            "I have also contributed to M&A projects, performing valuation analysis, due diligence, and financial modeling to support strategic transactions. Beyond technical skills, I excel at translating complex data into actionable business strategies, ensuring that insights are not just delivered but implemented effectively.",
+            "Fluent in Turkish and English, I am results-driven, detail-oriented, and thrive in fast-paced environments where data is at the core of decision-making."
         ],
         quickFacts: [
             {
@@ -68,19 +69,19 @@ const resumeData = {
                 icon: "fas fa-graduation-cap",
                 title: "Education",
                 content: "Bachelor of Economics",
-                subtitle: "TOBB University"
+                subtitle: "Hacettepe University"
             },
             {
                 icon: "fas fa-briefcase",
                 title: "Experience",
                 content: "3+ Years Experience",
-                subtitle: "in Data Science"
+                subtitle: "Data Science"
             },
             {
                 icon: "fas fa-globe",
                 title: "Languages",
                 content: "Turkish (Native)",
-                subtitle: "English"
+                subtitle: "English (Fluent)"
             },
             {
                 icon: "fas fa-shield-alt",
@@ -91,34 +92,44 @@ const resumeData = {
         ],
         services: [
             {
-                icon: "fas fa-brain",
-                title: "AI & Machine Learning",
-                description: "Build intelligent systems using deep learning, NLP, and computer vision to solve complex humanitarian challenges and optimize program outcomes."
-            },
-            {
                 icon: "fas fa-chart-line",
                 title: "Predictive Analytics",
-                description: "Develop forecasting models and causal inference frameworks to predict program impact and identify high-risk populations before crises occur."
+                description: "Develop advanced forecasting models for financial markets using machine learning and time series techniques to provide accurate and actionable predictions."
             },
             {
-                icon: "fas fa-shield-alt",
-                title: "AI Safety & XAI",
-                description: "Ensure ethical AI deployment with explainable models, bias detection, and transparent decision-making systems for humanitarian applications."
+                icon: "fas fa-coins",
+                title: "Valuation & Financial Modeling",
+                description: "Perform company valuations, build scenario-based financial models, and support M&A transactions with in-depth analytical insights."
             },
             {
-                icon: "fas fa-satellite",
-                title: "Geospatial Intelligence",
-                description: "Leverage satellite imagery, GIS analysis, and location-based data to map vulnerabilities and optimize resource distribution strategies."
+                icon: "fas fa-database",
+                title: "Data Science Solutions",
+                description: "Design and deploy end-to-end data science workflows, combining feature engineering, model optimization, and interactive analytics dashboards."
             },
             {
-                icon: "fas fa-users",
-                title: "Impact Measurement",
-                description: "Design comprehensive M&E systems using randomized controlled trials and quasi-experimental methods to measure real-world program effectiveness."
-            },
-            {
-                icon: "fas fa-code-branch",
+                icon: "fas fa-server",
                 title: "Data Engineering",
-                description: "Build scalable data pipelines, ETL processes, and cloud infrastructure to handle massive humanitarian datasets efficiently and securely."
+                description: "Build scalable data pipelines, automate ETL processes, and manage cloud-based data infrastructures for efficient data operations."
+            },
+            {
+                icon: "fas fa-globe",
+                title: "Market Research & Competitive Intelligence",
+                description: "Conduct in-depth market analysis and competitor benchmarking to support strategic business decisions and identify emerging market trends."
+            },
+            {
+                icon: "fas fa-brain",
+                title: "AI & Machine Learning Deployment",
+                description: "Integrate AI-driven solutions into business workflows, from model development to deployment, ensuring scalable and production-ready applications."
+            },
+            {
+                icon: "fas fa-laptop-code",
+                title: "Custom Dashboard Development",
+                description: "Build interactive and dynamic dashboards for real-time monitoring of KPIs, financial metrics, and predictive analytics outputs."
+            },
+            {
+                icon: "fas fa-project-diagram",
+                title: "End-to-End Data Strategy Consulting",
+                description: "Provide strategic consulting on data architecture, analytics roadmaps, and digital transformation initiatives to align data capabilities with business goals."
             }
         ]
     },
@@ -126,68 +137,22 @@ const resumeData = {
         {
             role: "Data Scientist - Monitoring and Evaluation",
             company: "Türk Kızılay | KIZILAYKART",
-            duration: "2023/05 - present",
+            duration: "2023/04 - present",
             location: "Ankara, TR",
             description: [
-                "Applied advanced Monitoring & Evaluation (M&E) methodologies (logframes, indicator tracking) within the world's largest cash assistance program, ensuring alignment with humanitarian standards.",
-                "Designed and implemented monitoring frameworks integrating econometric, statistical, and Machine Learning models to enhance program outcome tracking and evidence-based decision-making.",
-                "Engineered real-time data pipelines and developed interactive dashboards for real-time program monitoring and automated data quality assurance.",
-                "Improved resource allocation accuracy by developing classification models for vulnerable household profiling, refining targeting criteria.",
-                "Collaborated closely with program managers, field teams, and IT to understand needs, ensure data integrity, and translate complex data insights into actionable recommendations via compelling data storytelling for diverse stakeholders."
-            ]
-        },
-        {
-            role: "Entrepreneur",
-            company: "E-commerce Initiative",
-            duration: "2022/08 - 2023/05",
-            location: "Ankara, TR",
-            description: [
-                "Founded and managed an e-commerce venture, leveraging data analysis to optimize operations and marketing, achieving a 10-15% profit margin."
-            ]
-        }
-    ],
-    internships: [
-        {
-            role: "Project Funding and Corporate Loans",
-            company: "Türkiye Kalkınma ve Yatırım Bankası",
-            duration: "2021/08 - 2022/04",
-            location: "İstanbul",
-            description: [
-                "Assisted in analyzing companies, obtaining investment details/financial statements, and communicating findings.",
-                "Gained insight into investment processes and sustainability policies within a framework aligned with international institutions and some of the largest companies in Türkiye."
-            ]
-        },
-        {
-            role: "Finance",
-            company: "AFS Boru San. A.Ş.",
-            duration: "2021/06 - 2021/08",
-            location: "Ankara",
-            description: [
-                "Supported financial operations including cash management, banking activities, and import/export processes.",
-                "Enhanced financial reporting through meticulous handling of cash flow, tax returns, and account reconciliations."
+                "Conducted in-depth data analysis and delivered comprehensive reports to support strategic, data-driven decision-making processes across humanitarian and economic projects.",
+                "Performed Minimum Expenditure Basket (MEB) calculations to assess essential goods and services, contributing to economic assessments and policy recommendations.",
+                "Executed vulnerability assessments using statistical models to identify at-risk populations and design targeted intervention strategies.",
+                "Developed regression and time series forecasting models to predict trends, optimize resource allocation, and support scenario-based planning.",
+                "Utilized advanced statistical tools (R, Python, SPSS) to automate data analysis workflows, enhancing efficiency and accuracy in large-scale datasets.",
+                "Collaborated with cross-functional teams including researchers, policymakers, and field experts to refine data-driven strategies and improve program effectiveness.",
+                "Conducted profiling studies at household and individual levels, identifying socio-economic risk factors to inform targeted assistance programs.",
+                "Designed targeting methodologies and program optimization strategies using logistic regression, robust regression models, and decision trees for effective resource allocation.",
+                "Developed and evaluated multiple scenario-based profiling models, performing caseload calculations and forecasting to enhance intervention planning and anticipate future needs."
             ]
         }
     ],
     projects: [
-        {
-            name: "E-commerce Analytics Dashboard (Trendyol API)",
-            date: "2025/01",
-            description: [
-                "Developed a dashboard integrating the Trendyol Seller API to automate sales, commission, and expense analysis.",
-                "Enabled detailed P&L insights and data-driven pricing optimization via automated cost breakdowns."
-            ],
-            technologies: ["Python", "API Integration", "Dashboard", "Data Analytics"]
-        },
-        {
-            name: "Custom GIS Mapping & Geospatial Analysis",
-            date: "2024/10",
-            description: [
-                "Leveraged Python, OpenStreetMap (OSM), and GeoPandas to generate customized regional maps.",
-                "Integrated project-specific datasets onto maps for advanced geospatial visualization and analysis supporting institutional projects.",
-                "Conducted spatial analysis to identify and map regional vulnerabilities based on datasets."
-            ],
-            technologies: ["Python", "GeoPandas", "OpenStreetMap", "GIS", "Spatial Analysis"]
-        },
         {
             name: "Real-Time Data Integration with ODK API",
             date: "2024/01",
@@ -196,25 +161,52 @@ const resumeData = {
                 "Built an interactive Streamlit reporting dashboard for real-time monitoring and data visualization.",
                 "Significantly reduced manual workload for data monitoring through a Streamlit dashboard providing live tracking and visualization of data quality metrics."
             ],
-            technologies: ["Python", "ODK API", "Streamlit", "Data Pipeline", "Real-time Processing"]
+            technologies: ["Python", "ODK API", "Streamlit", "Data Pipeline", "Real-time Processing"],
+            link: "https://financial-analysis1.streamlit.app/"
         },
         {
-            name: "Breast Cancer Detection, Kaggle Challenge | Inzva",
-            date: "2023/12",
+            name: "Social Assistance MEB Calculation Tool",
+            date: "2023/11",
             description: [
-                "Achieved Top-15 rank (Inzva ML Bootcamp Kaggle) by developing a PyTorch CNN for BI-RADS classification from mammograms.",
-                "Optimized model focus for high recall on positive breast cancer cases, critical for diagnostic accuracy."
+                "Developed an interactive Shiny application to automate Minimum Expenditure Basket (MEB) calculations for social assistance programs.",
+                "Enabled dynamic parameter inputs and real-time result visualization, streamlining policy simulations and economic assessments.",
+                "Enhanced accuracy and transparency in cost estimations for humanitarian cash assistance frameworks."
             ],
-            technologies: ["PyTorch", "CNN", "Computer Vision", "Kaggle", "Medical AI"]
+            technologies: ["R", "Shiny", "Data Visualization", "MEB Framework"],
+            link: "https://aykut.shinyapps.io/KIZILAYKART_MEB_Calculation/"
         },
         {
-            name: "NLP Sentiment Classification & Deployment",
-            date: "2022/09",
+            name: "Financial Time Series Forecasting App",
+            date: "2023/10",
             description: [
-                "Engineered an NLP system using (TF-IDF/SVM) to classify hotel reviews (Tripadvisor dataset via Webscraping) on a 1-5 scale.",
-                "Deployed the model via a Streamlit web application for real-time sentiment analysis and visualization."
+                "Designed a Shiny application integrating ARIMA, Holt-Winters, XGBoost, and LSTM models for forecasting financial time series data.",
+                "Provided scenario-based projections and technical indicator analysis for equities and cryptocurrencies.",
+                "Facilitated interactive exploration of model outputs with customizable parameters and visualization."
             ],
-            technologies: ["Python", "Scikit-learn", "TensorFlow", "Streamlit", "NLP", "Web Scraping"]
+            technologies: ["R", "Shiny", "Time Series", "Machine Learning", "Forecasting"],
+            link: "https://aykut.shinyapps.io/finansal_ts/"
+        },
+        {
+            name: "FSP Mapping and Vulnerability Profiling",
+            date: "2023/09",
+            description: [
+                "Developed a geospatial Shiny dashboard to map Financial Service Provider (FSP) coverage and overlay vulnerability indices.",
+                "Enabled decision-makers to optimize service delivery routes and prioritize high-risk zones.",
+                "Incorporated interactive filters and dynamic heatmaps for granular analysis of regional vulnerabilities."
+            ],
+            technologies: ["R", "Shiny", "Geospatial Analysis", "Mapping", "Data Visualization"],
+            link: "https://aykutkizilaykart.shinyapps.io/FSP_Mapping/"
+        },
+        {
+            name: "User Feedback Sentiment Analysis App",
+            date: "2024/02",
+            description: [
+                "Built a Streamlit application to perform sentiment analysis on large-scale user feedback data.",
+                "Integrated NLP models to classify sentiments and visualize trends over time, aiding program monitoring and feedback loops.",
+                "Automated report generation for continuous feedback analysis, reducing manual processing time."
+            ],
+            technologies: ["Python", "Streamlit", "NLP", "Sentiment Analysis"],
+            link: "https://anewliz-app.streamlit.app/"
         }
     ],
     skills: [
@@ -223,16 +215,17 @@ const resumeData = {
             type: 'levelled',
             skills: [
                 { name: "Python", proficiency: "Advanced" },
-                { name: "Stata", proficiency: "Intermediate" },
+                { name: "Gretl", proficiency: "Advanced" },
                 { name: "E-Views", proficiency: "Intermediate" },
-                { name: "SQL", proficiency: "Advanced" }
+                { name: "SQL", proficiency: "Advanced" },
+                { name: "R Programming", proficiency: "Advanced" }
             ] 
         },
         { 
             name: "Machine Learning Frameworks", 
             type: 'levelled',
             skills: [
-                { name: "Scikit-learn", proficiency: "Advanced" },
+                { name: "Scikit-learn", proficiency: "Intermediate" },
                 { name: "TensorFlow", proficiency: "Intermediate" },
                 { name: "PyTorch", proficiency: "Intermediate" },
                 { name: "Hugging Face", proficiency: "Intermediate" },
@@ -246,41 +239,9 @@ const resumeData = {
                 { name: "CNNs", proficiency: "Intermediate" },
                 { name: "RNNs", proficiency: "Intermediate" },
                 { name: "LSTMs", proficiency: "Intermediate" },
-                { name: "GANs", proficiency: "Beginner" },
                 { name: "Transfer Learning", proficiency: "Intermediate" },
-                { name: "Pre-trained Models (BERT, ResNet)", proficiency: "Intermediate" },
-                { name: "Fine-tuning Techniques", proficiency: "Intermediate" }
-            ] 
-        },
-        { 
-            name: "Natural Language Processing (NLP)", 
-            type: 'levelled',
-            skills: [
-                { name: "LangChain", proficiency: "Intermediate" },
-                { name: "Hugging Face Transformers", proficiency: "Intermediate" },
-                { name: "spaCy", proficiency: "Intermediate" },
-                { name: "NLTK", proficiency: "Intermediate" },
-                { name: "Text Preprocessing", proficiency: "Advanced" },
-                { name: "Sentiment Analysis", proficiency: "Advanced" }
-            ] 
-        },
-        { 
-            name: "MLOps & Deployment", 
-            type: 'levelled',
-            skills: [
-                { name: "Docker", proficiency: "Intermediate" },
-                { name: "CI/CD (GitHub Actions)", proficiency: "Intermediate" },
-                { name: "Model Monitoring", proficiency: "Intermediate" },
-                { name: "MLflow", proficiency: "Intermediate" },
-                { name: "Kubernetes", proficiency: "Beginner" }
-            ] 
-        },
-        { 
-            name: "Data Processing & Big Data", 
-            type: 'levelled',
-            skills: [
-                { name: "Apache Spark", proficiency: "Intermediate" },
-                { name: "Apache Kafka", proficiency: "Beginner" }
+                { name: "Pre-trained Models (BERT, ResNet)", proficiency: "Beginner" },
+                { name: "Fine-tuning Techniques", proficiency: "Beginner" }
             ] 
         },
         { 
@@ -291,15 +252,20 @@ const resumeData = {
                 { name: "MySQL", proficiency: "Intermediate" }
             ] 
         },
-        { 
-            name: "GIS & Spatial Analysis", 
-            type: 'levelled',
+        {
+            name: "GIS & Spatial Analysis",
+            type: "levelled",
             skills: [
                 { name: "GeoPandas", proficiency: "Intermediate" },
                 { name: "OpenStreetMap APIs", proficiency: "Intermediate" },
                 { name: "QGIS", proficiency: "Intermediate" },
-                { name: "Spatial Statistics", proficiency: "Intermediate" }
-            ] 
+                { name: "Spatial Statistics", proficiency: "Intermediate" },
+                { name: "sf (Simple Features)", proficiency: "Intermediate" },
+                { name: "tmap", proficiency: "Intermediate" },
+                { name: "leaflet (R)", proficiency: "Intermediate" },
+                { name: "raster", proficiency: "Basic" },
+                { name: "sp", proficiency: "Basic" }
+            ]
         },
         { 
             name: "Web Development", 
@@ -307,22 +273,26 @@ const resumeData = {
             skills: [
                 { name: "Streamlit", proficiency: "Advanced" },
                 { name: "FastAPI", proficiency: "Intermediate" },
-                { name: "RESTful APIs", proficiency: "Advanced" },
-                { name: "Gradio", proficiency: "Beginner" }
+                { name: "R Shiny", proficiency: "Advanced" }
             ] 
         },
-        { 
-            name: "Soft Skills", 
-            type: 'list',
+        {
+            name: "Soft Skills",
+            type: "list",
             skills: [
                 { name: "Project Management" },
-                { name: "Adaptability" },
-                { name: "Critical Thinking" },
-                { name: "Ethical Awareness" },
-                { name: "Creativity" },
-                { name: "Data Storytelling" },
-                { name: "Cross-functional Collaboration" }
-            ] 
+                { name: "Adaptability and Resilience" },
+                { name: "Analytical and Critical Thinking" },
+                { name: "Ethical Awareness and Data Responsibility" },
+                { name: "Creative Problem Solving" },
+                { name: "Data Storytelling and Visualization" },
+                { name: "Cross-functional Collaboration" },
+                { name: "Effective Communication with Stakeholders" },
+                { name: "Strategic Decision Making under Pressure" },
+                { name: "Attention to Detail and Data Accuracy" },
+                { name: "Proactive Initiative and Ownership" },
+                { name: "Time Management and Prioritization" }
+            ]
         },
         { 
             name: "M&E Frameworks/Tools", 

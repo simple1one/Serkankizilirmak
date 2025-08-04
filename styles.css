@@ -1,35 +1,36 @@
 :root {
     /* Business color palette - professional & warm */
-    --primary-color: #5e503f;          /* Koyu kahve - primary */
-    --primary-dark: #22333b;           /* Charcoal - darker primary */
-    --primary-light: #c6ac8f;          /* Warm taupe - lighter primary */
-    --accent-color: #c6ac8f;           /* Warm taupe - accent */
-    --accent-light: #eae0d5;           /* Açık krem - light accent */
-    
-    /* Business background colors */
-    --bg-primary: #eae0d5;             /* Açık krem - main background */
-    --bg-secondary: #f5f2ed;           /* Slightly darker cream */
-    --bg-tertiary: #ede7dd;            /* Medium cream */
-    --bg-dark: #0a0908;                /* Siyah - dark backgrounds */
-    --bg-card: #ffffff;                /* Pure white for cards */
-    
-    /* Text colors */
-    --text-primary: #22333b;           /* Charcoal - primary text */
-    --text-secondary: #5e503f;         /* Koyu kahve - secondary text */
-    --text-muted: #8a7a6b;             /* Muted brown */
-    --text-white: #ffffff;
-    
-    /* Border and shadow with business colors */
-    --border-color: rgba(94, 80, 63, 0.2);           /* Soft brown border */
-    --shadow-light: 0 1px 3px 0 rgba(34, 51, 59, 0.1), 0 1px 2px 0 rgba(34, 51, 59, 0.06);
-    --shadow-medium: 0 4px 6px -1px rgba(34, 51, 59, 0.1), 0 2px 4px -1px rgba(34, 51, 59, 0.06);
-    --shadow-large: 0 10px 15px -3px rgba(34, 51, 59, 0.1), 0 4px 6px -2px rgba(34, 51, 59, 0.05);
+    /* Primary Colors - Ana renkler */
+    --primary-color: #e74444;            /* Warm taupe (Açık tondan ana renge dönüştü) */
+    --primary-dark: #912d2d;             /* Muted brown (Orta koyulukta vurgu) */
+    --primary-light: #faf8f6;            /* Açık krem (Vurgu veya ikincil elemanlar için) */
+    --accent-color: #f5b3b3;             /* Warm taupe'un daha parlak bir tonu */
+    --accent-light: #5e503f;             /* Koyu kahve (Koyu zeminlerde belirginlik sağlar) */
+
+    /* Business background colors - Arka plan renkleri */
+    --bg-primary: #1a1510;               /* Koyu kahve tonlarında ana arka plan */
+    --bg-secondary: #a88284;             /* Hafifçe daha koyu arka plan */
+    --bg-tertiary: #8d6952;              /* Kartlar ve bileşenler için orta ton */
+    --bg-dark: #000000;                  /* Saf siyah, çok özel durumlar için */
+    --bg-card: #a0a3d1;                  /* Kartlar ve paneller için ideal arka plan */
+
+    /* Text colors - Yazı renkleri */
+    --text-primary: #740303;             /* Açık krem (Ana yazı rengi) */
+    --text-secondary: #000000;           /* Warm taupe (İkincil yazı ve başlıklar) */
+    --text-muted: #d6c6c6;               /* Muted brown (Sönük, açıklayıcı metinler) */
+    --text-white: #ffffffb9;               /* Çok nadiren kullanılan saf beyaz */
+
+    /* Border and shadow - Kenarlık ve gölge */
+    --border-color: rgba(198, 172, 143, 0.2); /* Soft taupe border */
+    --shadow-light: 0 1px 3px 0 rgba(10, 9, 8, 0.4), 0 1px 2px 0 rgba(10, 9, 8, 0.2);
+    --shadow-medium: 0 4px 6px -1px rgba(10, 9, 8, 0.4), 0 2px 4px -1px rgba(10, 9, 8, 0.2);
+    --shadow-large: 0 10px 15px -3px rgba(10, 9, 8, 0.4), 0 4px 6px -2px rgba(10, 9, 8, 0.2);
     --shadow-glow: 0 0 0 1px rgba(198, 172, 143, 0.15), 0 10px 25px -5px rgba(198, 172, 143, 0.2);
-    
-    /* Business gradients */
-    --gradient-primary: linear-gradient(135deg, #c6ac8f 0%, #5e503f 100%);
-    --gradient-light: linear-gradient(135deg, #eae0d5 0%, #f5f2ed 100%);
-    --gradient-hero: linear-gradient(135deg, #f5f2ed 0%, #eae0d5 50%, #ede7dd 100%);
+
+    /* Business gradients - Gradyanlar */
+    --gradient-primary: linear-gradient(135deg, #c6ac8f 0%, #d8c3af 100%);
+    --gradient-light: linear-gradient(135deg, #8879a3 0%, #1a1510 100%);
+    --gradient-hero: linear-gradient(135deg, #000000 0%, #75685a 50%, #bebebe 100%);
     
     /* Spacing */
     --spacing-xs: 0.25rem;
@@ -164,14 +165,14 @@ p {
 }
 
 .btn-tertiary:hover {
-    background: linear-gradient(135deg, #22333b, #0a0908);
+    background: linear-gradient(135deg, #21546b, #181716);
     transform: translateY(-2px);
     box-shadow: var(--shadow-medium);
 }
 
 .btn-accent {
     background: var(--gradient-primary);
-    color: white;
+    color: rgb(187, 16, 16);
     border: none;
     box-shadow: var(--shadow-light);
     position: relative;
@@ -186,14 +187,14 @@ p {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background: linear-gradient(90deg, transparent, rgba(119, 88, 88, 0.4), transparent);
     transition: left 0.6s;
 }
 
 .btn-accent:hover {
-    background: linear-gradient(135deg, #22333b, #0a0908);
+    background: linear-gradient(135deg, #011016, #663b10);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(198, 172, 143, 0.4);
+    box-shadow: 0 10px 25px rgba(36, 31, 26, 0.4);
 }
 
 .btn-accent:hover::before {
@@ -206,7 +207,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(254, 254, 254, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     z-index: 1000;
     transition: all var(--transition-normal);
@@ -375,37 +376,37 @@ p {
 }
 
 .profile-flip-back {
-    background: linear-gradient(135deg, #22333b 0%, #0a0908 100%);
+    background: linear-gradient(135deg, #113f55 0%, #3a3734 100%);
     transform: rotateY(180deg);
 }
 
 .profile-image:hover .profile-flip-front,
 .profile-image:hover .profile-flip-back {
-    box-shadow: 0 0 60px rgba(198, 172, 143, 0.4);
+    box-shadow: 0 0 60px rgba(92, 66, 37, 0.4);
 }
 
 .status-badge {
     display: flex;
     align-items: center;
     gap: var(--spacing-sm);
-    background: linear-gradient(135deg, rgba(94, 80, 63, 0.15) 0%, rgba(34, 51, 59, 0.15) 100%);
+    background: linear-gradient(135deg, rgba(126, 88, 42, 0.15) 0%, rgba(34, 51, 59, 0.15) 100%);
     backdrop-filter: blur(10px);
     padding: var(--spacing-md) var(--spacing-xl);
     border-radius: var(--radius-full);
-    border: 1px solid rgba(94, 80, 63, 0.3);
-    box-shadow: 0 8px 32px rgba(94, 80, 63, 0.2);
+    border: 1px solid rgba(136, 96, 48, 0.3);
+    box-shadow: 0 8px 32px rgba(121, 88, 48, 0.2);
     font-size: var(--font-size-sm);
     color: var(--text-primary);
     font-weight: 600;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px 2px rgba(70, 3, 3, 0.1);
 }
 
 .status-dot {
     width: 12px;
     height: 12px;
-    background: linear-gradient(135deg, #5e503f 0%, #22333b 100%);
+    background: linear-gradient(135deg, #795224 0%, #031e2b 100%);
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(94, 80, 63, 0.6);
+    box-shadow: 0 0 10px rgba(122, 84, 37, 0.6);
     animation: pulse 2s infinite;
 }
 
@@ -430,7 +431,7 @@ p {
     line-height: 1.1;
     letter-spacing: 0.02em;
     position: relative;
-    text-shadow: 0 2px 4px rgba(34, 51, 59, 0.2);
+    text-shadow: 0 2px 4px rgba(25, 27, 29, 0.2);
 }
 
 .main-name::before {
@@ -451,7 +452,7 @@ p {
     margin-bottom: var(--spacing-xl);
     min-height: 80px;
     font-weight: 600;
-    text-shadow: 0 2px 4px rgba(34, 51, 59, 0.1);
+    text-shadow: 0 2px 4px rgba(31, 35, 37, 0.1);
 }
 
 .bio {
@@ -504,7 +505,7 @@ p {
     align-items: center;
     gap: var(--spacing-md);
     padding: var(--spacing-2xl);
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(122, 3, 3, 0.9);
     backdrop-filter: blur(10px);
     border-radius: var(--radius-xl);
     border: 1px solid var(--border-color);
@@ -1412,7 +1413,7 @@ section {
 }
 
 .project-card {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(238, 191, 138, 0.95);
     backdrop-filter: blur(10px);
     border-radius: var(--radius-2xl);
     padding: var(--spacing-3xl);
@@ -1857,7 +1858,7 @@ section {
 
 /* Contact Section */
 .contact {
-    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    background: linear-gradient(135deg, #1b1c1d 0%, #06182b 100%);
     position: relative;
     overflow: hidden;
 }
@@ -1898,7 +1899,7 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    color: white;
+    color: rgb(70, 10, 10);
     position: relative;
     z-index: 2;
     box-shadow: 0 20px 40px rgba(99, 102, 241, 0.3);
