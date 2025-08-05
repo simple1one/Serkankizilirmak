@@ -492,7 +492,7 @@ p {
 
 .nav-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--spacing-2xl);
     max-width: 1000px;
     margin: 0 auto;
@@ -3754,11 +3754,15 @@ section {
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-lg);
         max-width: 500px;
+        position: center;
+        align-items: center;
     }
     
+
     .nav-card {
         width: 250px;
         padding: var(--spacing-2xl) var(--spacing-lg);
+        position: center;
     }
     
     .nav-card span {
