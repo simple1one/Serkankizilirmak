@@ -28,7 +28,7 @@ FSP Mapping Dashboard	Geospatial dashboard mapping financial service coverage an
 Sentiment Analysis App	Streamlit app for analyzing and visualizing user feedback sentiment.	Live App
 
 📫 Contact
-Email: aykutkutlu.ds@gmail.com
+Email: aykutkutlu811@gmail.com
 
 LinkedIn: [linkedin.com/in/aykutkutlu](https://www.linkedin.com/in/aykut-kutlu-562867236/)
 
