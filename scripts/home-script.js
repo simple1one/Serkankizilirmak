@@ -82,19 +82,20 @@ function initGreeting() {
 // Typing Animation
 function initTypingAnimation() {
     const titles = [
-        'Data Scientist',
-        'Machine Learning Engineer',
-        'AI Engineer',
+        'Applied Data Scientist',
+        'Data Science Consultant',
+        'Predictive Analytics Specialist',
         'Monitoring & Evaluation Specialist',
+        'Financial Data Analyst'
     ];
     
     // Color array for different titles - Business colors
     const colors = [
-        '#5e503f', // Koyu kahve
+        '#352f27ff', // Koyu kahve
         '#c6ac8f', // Warm taupe
-        '#22333b', // Charcoal
-        '#0a0908', // Siyah
-        '#8a7a6b'  // Muted brown
+        '#1c1258ff', // Charcoal
+        '#490f0fff', // Siyah
+        '#d8d8d8ff'  // Muted brown
     ];
     
     let currentTitleIndex = 0;
